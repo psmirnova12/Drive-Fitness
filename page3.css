@@ -93,6 +93,12 @@ header{
 .section-card .container .card1 .card{
     width: 23%;
     background: #0E0E0E;
+    transition: 0.4s;
+    margin-bottom: 5%;
+}
+
+.section-card .container .card1 .card:hover{
+    border: 5px solid #8FFF5B;
 }
 
 .section-card .container .card1{
@@ -103,18 +109,13 @@ header{
 
 .section-card .container .card1 .card img{
     height: 100%;
-    transition: 0.4s;
-}
-
-.section-card .container .card1 .card img:hover{
-    border: 5px solid #8FFF5B;
 }
 
 .section-card .container .card1 .card .card-body p{
     color: white;
     text-align: center;
     font-size: 20px;
-    margin-bottom: 7%;
+    
     font-family: 'Montserrat';
 }
 
@@ -210,8 +211,7 @@ footer .container .icons{
         
     }
 
-    .section-card .container .card1 .card img:hover{
-        
+    .section-card .container .card1 .card:hover{
         border: 3px solid #8FFF5B;
     }
 
