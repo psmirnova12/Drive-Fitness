@@ -130,12 +130,23 @@ header{
 }
 
 .slider .container .carousel-caption h5{
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .slider .container .carousel-caption p{
     font-size: 20px;
 }
+
+.slider .container{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    width: 80%;
+    height: 80%;
+}
+
 
 
 
@@ -162,6 +173,7 @@ header{
     display: flex;
     flex-direction: row;
     background-color: #0E0E0E;
+    margin-bottom: 2%;
 
 }
 
@@ -192,19 +204,29 @@ header{
     align-items: end;
     justify-content: center;
     text-align: end;
-    padding-right: 2%;
+    padding-right: 3%;
 }
 
 .room .container .card .foto img{
     filter: brightness(80%);
     width: 96%;
     border: 5px solid #8FFF5B;
+    transition: 0.5s;
+}
+
+.room .container .card .foto img:hover{
+    transform: scale(1.1);
 }
 
 .room .container .card .fotor img{
     filter: brightness(80%);
     width: 96%;
     border: 5px solid #8FFF5B;
+    transition: 0.5s;
+}
+
+.room .container .card .fotor img:hover{
+    transform: scale(1.1);
 }
 
 .room .container .card .text p{
@@ -470,7 +492,7 @@ footer .container .icons{
     }
 
     .slider .container .carousel-caption p{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .room .container h2{
@@ -544,6 +566,24 @@ footer .container .icons{
         font-size: 12px;
     }
 
+    .slider .container .carousel-caption h5{
+        font-size: 13px;
+    }
+
+    .slider .container .carousel-caption p{
+        font-size: 9px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 1rem !important;
+        height: 1rem !important;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        width: 20px !important;
+        height: 2px !important;
+    }
+
     .room .container h2{
         font-size: 15px;
     }
@@ -580,7 +620,7 @@ footer .container .icons{
 
     .consultation .container .knop button{
         font-size: 10px;
-        height: 40px;
+        height: 30px;
     }
 
     footer .container .text p{

@@ -97,11 +97,17 @@ header{
 }
 
 .section-card .container .all .card{
-    width: 31% !important;
+    width: 28% !important;
     margin-bottom: 5%;
     border-radius: 20px !important;
     border: none;
+    transition: 0.5s;
 }
+.section-card .container .all .card:hover{
+    transform: scale(1.1);
+}
+
+
 
 .section-card .container .all .card img{
     border-radius: 20px;
@@ -300,7 +306,7 @@ footer .container .icons{
     }
 
     .section-card .container .all .card{
-        width: 48% !important;
+        width: 45% !important;
         border-radius: 10px !important;
     }
 
@@ -356,11 +362,18 @@ footer .container .icons{
 
     .section-card .container h2{
         font-size: 18px;
+        margin-bottom: 4%;
     }
 
     .section-card .container .all .card{
         width: 60% !important;
         border-radius: 10px !important;
+        transition: 0.5s;
+        margin-bottom: 7%;
+    }
+
+    .section-card .container .all .card:hover{
+        transform: scale(1.1);
     }
 
     .section-card .container .all .card .card-body h5{

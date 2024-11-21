@@ -103,6 +103,10 @@ header{
 
 .section-card .container .card1 .card img{
     height: 100%;
+    transition: 0.4s;
+}
+
+.section-card .container .card1 .card img:hover{
     border: 5px solid #8FFF5B;
 }
 
@@ -203,6 +207,11 @@ footer .container .icons{
 
     .section-card .container .card1 .card img{
         height: 90%;
+        
+    }
+
+    .section-card .container .card1 .card img:hover{
+        
         border: 3px solid #8FFF5B;
     }
 
